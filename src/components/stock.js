@@ -21,12 +21,18 @@ export default function StockSymbol (props) {
     
     return (
       <div>
-        <h1>
-            Name: {stockSymbol && stockSymbol[0].name}
-        </h1>
-        <h1>
-            Price: {stockSymbol && stockSymbol[0].price}
-        </h1>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Change</th>
+          </tr>
+          <tr>
+            <td>{stockSymbol && stockSymbol[0].name}</td>
+            <td>{stockSymbol && stockSymbol[0].price}</td>
+            <td>{stockSymbol && stockSymbol[0].change}</td>
+          </tr>
+        </table>
       </div>
     );
   };

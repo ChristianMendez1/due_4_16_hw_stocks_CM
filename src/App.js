@@ -11,7 +11,7 @@ import StockSymbol from './components/stock'
 
 function App() {
   return (
-    <div>
+    <div id='app'>
       <Nav />
       <Routes>
         <Route path ='/' element={<Home />}/>

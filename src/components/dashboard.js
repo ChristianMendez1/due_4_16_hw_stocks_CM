@@ -7,7 +7,7 @@ export default function Dashboard() {
         const {name, symbol} = stock;
         return(
             <Link to={`/stocks/${symbol}`}>
-                <li>{name}</li>
+                <li id='stockname'>{name}</li>
             </Link>
         )
     })

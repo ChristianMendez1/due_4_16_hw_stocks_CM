@@ -19,6 +19,10 @@
   margin: 10px;
 }
 
+#dashboard a{
+  width: max-content;
+}
+
 #dashboard a:visited{
   text-decoration: none;
 }
@@ -32,4 +36,17 @@
   color: white;
 }
 
+table {
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+td, th {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  text-align: left;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
