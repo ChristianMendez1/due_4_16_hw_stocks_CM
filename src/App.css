@@ -14,13 +14,14 @@
 
 #dashboard {
   display: flex;
-  font-size: 24px;
+  font-size: 18px;
   flex-direction: column;
   margin: 10px;
 }
 
 #dashboard a{
   width: max-content;
+  margin: 3px;
 }
 
 #dashboard a:visited{
